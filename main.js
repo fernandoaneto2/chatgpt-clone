@@ -1,5 +1,4 @@
-const apiKey =
-  "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";
+const apiKey = process.env.OPENAI_API_KEY;
 
 function sendMessage() {
   var message = document.getElementById("message-input");
